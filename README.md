@@ -1,3 +1,4 @@
+```text
 amcl:
   ros__parameters:
     use_sim_time: True
@@ -61,7 +62,7 @@ bt_navigator:
       - nav2_wait_action_bt_node
       - nav2_assisted_teleop_action_bt_node
       - nav2_back_up_action_bt_node
-      - nav2_drive_on_heading_bt_node
+      - nav2_drive_on_heading_action_bt_node
       - nav2_clear_costmap_service_bt_node
       - nav2_is_stuck_condition_bt_node
       - nav2_goal_reached_condition_bt_node
@@ -363,3 +364,4 @@ velocity_smoother:
     odom_duration: 0.1
     deadband_velocity: [0.0, 0.0, 0.0]
     velocity_timeout: 1.0
+```
