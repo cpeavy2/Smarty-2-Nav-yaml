@@ -1,4 +1,3 @@
-# Smarty-2-Nav-yaml
 amcl:
   ros__parameters:
     use_sim_time: True
